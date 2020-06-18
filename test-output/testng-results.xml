@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26620" started-at="2020-05-31T20:12:43 IST" finished-at="2020-05-31T20:13:10 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26620" started-at="2020-05-31T20:12:43 IST" finished-at="2020-05-31T20:13:10 IST">
+      <class name="com.ebayTest.RegistrationTest">
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String)[pri:0, instance:com.ebayTest.RegistrationTest@5d76b067]" name="precondition" is-config="true" duration-ms="13926" started-at="2020-05-31T20:12:43 IST" finished-at="2020-05-31T20:12:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="enterTheEmailAddress()[pri:1, instance:com.ebayTest.RegistrationTest@5d76b067]" name="enterTheEmailAddress" duration-ms="5690" started-at="2020-05-31T20:12:57 IST" finished-at="2020-05-31T20:13:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTheEmailAddress -->
+        <test-method status="PASS" signature="enterRegistraionDeatils()[pri:2, instance:com.ebayTest.RegistrationTest@5d76b067]" name="enterRegistraionDeatils" duration-ms="6934" started-at="2020-05-31T20:13:03 IST" finished-at="2020-05-31T20:13:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRegistraionDeatils -->
+      </class> <!-- com.ebayTest.RegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
